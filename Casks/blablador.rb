@@ -20,7 +20,7 @@ cask "blablador" do
 
   # The app is not notarized yet; without this, Gatekeeper blocks the first launch.
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "Blablador.app"], base: :appdir
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Blablador.app"]
   end
 
   zap trash: [
