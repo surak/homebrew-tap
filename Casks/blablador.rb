@@ -1,6 +1,6 @@
 cask "blablador" do
-  version "3.12.1"
-  sha256 "2f4c00302a34522ff8eda48a3be08595a83f45900999a47afa2ce4c06c35facd"
+  version "3.12.2"
+  sha256 "005f0006a71f79294a4a844b7174b8ea8770619884f7d2ddf9e1dabb65c93810"
 
   url "https://github.com/surak/blablador-ios/releases/download/v#{version}/Blablador-#{version}-macOS.zip"
   name "Blablador"
